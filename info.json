@@ -1,0 +1,11 @@
+{
+    "name": "lazy-bastard-for-multiplay",
+    "version": "0.1.0",
+    "title": "Lazy Bastard for Multiplay",
+    "author": "You",
+    "factorio_version": "1.1",
+    "dependencies": [
+        "base >= 1.1"
+    ],
+    "description": "(Experimental) This mod disables manual crafting until a rocket launch. It gives some necessary items on start, instead."
+}
