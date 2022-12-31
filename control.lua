@@ -11,8 +11,10 @@ local function give_necessry_items(player)
     player.insert{ name = "small-electric-pole", count = 2 }
 end
 
-local function enable_crafting(e)
-    game.players[e.player_index].force.manual_crafting_speed_modifier = 1
+local function enable_crafting(event)
+    for _, player in pairs(game.players) do
+        player.force.manual_crafting_speed_modifier = 1
+    end
 end
 
 local function disable_crafting(e)
